@@ -17,6 +17,6 @@
 #include "pxr/usd/usdRi/statementsAPI.h"
 %}
 
-%ignore UsdRiStatementsAPI::schemaType;
+%ignore UsdRiStatementsAPI::schemaKind;
 
 %include "pxr/usd/usdRi/statementsAPI.h"

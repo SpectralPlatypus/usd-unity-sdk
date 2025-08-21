@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/domeLight.h"
 %}
 
-%ignore UsdLuxDomeLight::schemaType;
+%ignore UsdLuxDomeLight::schemaKind;
 
 %include "pxr/usd/usdLux/domeLight.h"

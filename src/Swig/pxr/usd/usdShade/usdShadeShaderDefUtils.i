@@ -17,4 +17,6 @@
 #include "pxr/usd/usdShade/shaderDefUtils.h"
 %}
 
+%ignore UsdShadeShaderDefUtils::GetShaderProperties;
+
 %include "pxr/usd/usdShade/shaderDefUtils.h"

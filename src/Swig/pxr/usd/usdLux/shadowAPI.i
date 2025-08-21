@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/shadowAPI.h"
 %}
 
-%ignore UsdLuxShadowAPI::schemaType;
+%ignore UsdLuxShadowAPI::schemaKind;
 
 %include "pxr/usd/usdLux/shadowAPI.h"

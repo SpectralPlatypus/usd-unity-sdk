@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/shapingAPI.h"
 %}
 
-%ignore UsdLuxShapingAPI::schemaType;
+%ignore UsdLuxShapingAPI::schemaKind;
 
 %include "pxr/usd/usdLux/shapingAPI.h"

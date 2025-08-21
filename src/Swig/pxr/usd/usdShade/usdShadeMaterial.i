@@ -21,7 +21,7 @@
 %template() std::pair<UsdStagePtr,UsdEditTarget>;
 
 %ignore UsdShadeMaterial::FindBaseMaterialPathInPrimIndex;
-%ignore UsdShadeMaterial::CreateMaterialBindSubset;
+//%ignore UsdShadeMaterial::CreateMaterialBindSubset;
 
 %template(UsdShadeMaterialVector) std::vector<UsdShadeMaterial>;
 

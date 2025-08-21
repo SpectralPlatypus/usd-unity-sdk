@@ -27,7 +27,7 @@ namespace std {
   %template(UsdCollectionAPIVector) vector<UsdCollectionAPI>;
 }
 
-%ignore UsdCollectionAPI::schemaType;
+%ignore UsdCollectionAPI::schemaKind;
 
 %ignore ComputeIncludedObjects(
     const UsdCollectionMembershipQuery &query,
@@ -47,5 +47,5 @@ namespace std {
 // https://github.com/PixarAnimationStudios/USD/issues/669
 %ignore UsdCollectionAPI::IsCollectionPath;
 
-//%include "pxr/usd/usd/collectionAPI.h"
-%include "third_party/include/pxr/usd/usd/collectionAPI.h"
+%include "pxr/usd/usd/collectionAPI.h"
+//%include "third_party/include/pxr/usd/usd/collectionAPI.h"

@@ -20,6 +20,6 @@
 // It's currently missing the API decl (USD v0.8.2), causing missing symbol linker errors.
 %ignore UsdShadeConnectableAPI::AreBidirectionalInterfaceConnectionsEnabled;
 
-%ignore UsdShadeConnectableAPI::schemaType;
+%ignore UsdShadeConnectableAPI::schemaKind;
 
 %include "pxr/usd/usdShade/connectableAPI.h"

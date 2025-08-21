@@ -17,6 +17,6 @@
 #include "pxr/usd/usdVol/field3DAsset.h"
 %}
 
-%ignore UsdVolField3DAsset::schemaType;
+%ignore UsdVolField3DAsset::schemaKind;
 
 %include "pxr/usd/usdVol/field3DAsset.h"

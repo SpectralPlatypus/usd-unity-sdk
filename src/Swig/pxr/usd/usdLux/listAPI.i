@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/listAPI.h"
 %}
 
-%ignore UsdLuxListAPI::schemaType;
+%ignore UsdLuxListAPI::schemaKind;
 
 %include "pxr/usd/usdLux/listAPI.h"

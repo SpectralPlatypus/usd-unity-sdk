@@ -18,7 +18,7 @@
 #include "pxr/usd/usd/apiSchemaBase.h"
 %}
 
-%ignore UsdAPISchemaBase::schemaType;
+%ignore UsdAPISchemaBase::schemaKind;
 
 %extend UsdAPISchemaBase {
 %csmethodmodifiers GetSchemaAttributeNames() "public new";

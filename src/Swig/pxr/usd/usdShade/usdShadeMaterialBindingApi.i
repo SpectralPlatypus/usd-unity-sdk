@@ -18,7 +18,7 @@
 #include "pxr/usd/usdShade/materialBindingAPI.h"
 %}
 
-%ignore UsdShadeMaterialBindingAPI::schemaType;
+%ignore UsdShadeMaterialBindingAPI::schemaKind;
 %ignore UsdShadeMaterialBindingAPI::BindingsAtPrim;
 %ignore UsdShadeMaterialBindingAPI::ComputeBoundMaterial(
         BindingsCache *bindingsCache,

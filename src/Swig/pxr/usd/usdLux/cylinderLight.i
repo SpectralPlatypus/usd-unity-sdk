@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/cylinderLight.h"
 %}
 
-%ignore UsdLuxCylinderLight::schemaType;
+%ignore UsdLuxCylinderLight::schemaKind;
 
 %include "pxr/usd/usdLux/cylinderLight.h"

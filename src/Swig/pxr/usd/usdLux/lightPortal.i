@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/lightPortal.h"
 %}
 
-%ignore UsdLuxLightPortal::schemaType;
+%ignore UsdLuxLightPortal::schemaKind;
 
 %include "pxr/usd/usdLux/lightPortal.h"

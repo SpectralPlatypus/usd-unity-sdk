@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/rectLight.h"
 %}
 
-%ignore UsdLuxRectLight::schemaType;
+%ignore UsdLuxRectLight::schemaKind;
 
 %include "pxr/usd/usdLux/rectLight.h"

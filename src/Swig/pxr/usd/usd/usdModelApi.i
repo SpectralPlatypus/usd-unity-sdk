@@ -18,6 +18,6 @@
 #include "pxr/usd/usd/modelAPI.h"
 %}
 
-%ignore UsdModelAPI::schemaType;
+%ignore UsdModelAPI::schemaKind;
 
 %include "pxr/usd/usd/modelAPI.h"

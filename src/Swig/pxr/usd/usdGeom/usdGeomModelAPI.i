@@ -18,7 +18,7 @@
 #include "pxr/usd/usdGeom/modelAPI.h"
 %}
 
-%ignore UsdGeomModelAPI::schemaType;
+%ignore UsdGeomModelAPI::schemaKind;
 
 %include "pxr/usd/usdGeom/modelAPI.h"
 

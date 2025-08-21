@@ -11,6 +11,7 @@
 %include "usdShade/usdShade.i"
 %include "usdSkel/usdSkel.i"
 %include "usdLux/usdLux.i"
+%include "usdPhysics/usdPhysics.i"
 %include "usdRi/usdRi.i"
 %include "usdUtils/usdUtils.i"
 %include "usdVol/usdVol.i"

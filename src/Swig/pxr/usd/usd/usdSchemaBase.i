@@ -21,7 +21,7 @@
 // WRAP_EQUAL(UsdSchemaBase)
 // WRAP_EQUAL doesn't work because we need to compare the held prims, not the schema objects.
 
-%ignore UsdSchemaBase::schemaType;
+%ignore UsdSchemaBase::schemaKind;
 
 %extend UsdSchemaBase {
   static bool Equals(UsdSchemaBase const& lhs, UsdSchemaBase const& rhs) {

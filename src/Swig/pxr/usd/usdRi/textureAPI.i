@@ -17,6 +17,6 @@
 #include "pxr/usd/usdRi/textureAPI.h"
 %}
 
-%ignore UsdRiTextureAPI::schemaType;
+%ignore UsdRiTextureAPI::schemaKind;
 
 %include "pxr/usd/usdRi/textureAPI.h"

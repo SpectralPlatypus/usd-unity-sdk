@@ -17,6 +17,6 @@
 #include "pxr/usd/usdRi/lightPortalAPI.h"
 %}
 
-%ignore UsdRiLightPortalAPI::schemaType;
+%ignore UsdRiLightPortalAPI::schemaKind;
 
 %include "pxr/usd/usdRi/lightPortalAPI.h"

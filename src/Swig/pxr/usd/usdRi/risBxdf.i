@@ -17,6 +17,6 @@
 #include "pxr/usd/usdRi/risBxdf.h"
 %}
 
-%ignore UsdRiRisBxdf::schemaType;
+%ignore UsdRiRisBxdf::schemaKind;
 
 %include "pxr/usd/usdRi/risBxdf.h"

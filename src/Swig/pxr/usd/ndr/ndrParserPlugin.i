@@ -23,9 +23,4 @@
 %ignore NdrParserPlugin::Parse;
 %ignore NdrParserPlugin::GetInvalidNode;
 
-// Mising NDR_API
-// Bug filed: https://github.com/PixarAnimationStudios/USD/issues/660
-%ignore NdrParserPlugin::DiscoveryTypes;
-%ignore NdrParserPlugin::SourceType;
-
 %include "pxr/usd/ndr/parserPlugin.h"

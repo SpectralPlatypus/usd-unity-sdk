@@ -17,6 +17,6 @@
 #include "pxr/usd/usdRi/materialAPI.h"
 %}
 
-%ignore UsdRiMaterialAPI::schemaType;
+%ignore UsdRiMaterialAPI::schemaKind;
 
 %include "pxr/usd/usdRi/materialAPI.h"

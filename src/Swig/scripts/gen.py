@@ -14,7 +14,7 @@
 
 import sys, os
 import vt, sdf
-import usdGeom, usdShade, usdSkel, usdLux, usdRi, usdVol, kind
+import usdGeom, usdShade, usdSkel, usdLux, usdPhysics, usdRi, usdVol, kind
 
 basePath = "src/Swig/pxr/base/"
 usdPath = "src/Swig/pxr/usd/"
@@ -59,6 +59,9 @@ if __name__ == "__main__":
 
     print("Generating UsdLux ")
     usdLux.genUsdLuxTokens(usdPath, copyright)
+    
+    print("Generating UsdPhysics ")
+    usdPhysics.genUsdPhysicsTokens(usdPath, copyright)
 
     print("Generating UsdRi ")
     usdRi.genUsdRiTokens(usdPath, copyright)

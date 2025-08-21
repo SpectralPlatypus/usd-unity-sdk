@@ -17,6 +17,6 @@
 #include "pxr/usd/usdVol/openVDBAsset.h"
 %}
 
-%ignore UsdVolOpenVDBAsset::schemaType;
+%ignore UsdVolOpenVDBAsset::schemaKind;
 
 %include "pxr/usd/usdVol/openVDBAsset.h"

@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/lightFilter.h"
 %}
 
-%ignore UsdLuxLightFilter::schemaType;
+%ignore UsdLuxLightFilter::schemaKind;
 
 %include "pxr/usd/usdLux/lightFilter.h"

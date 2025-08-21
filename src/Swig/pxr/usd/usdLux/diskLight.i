@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/diskLight.h"
 %}
 
-%ignore UsdLuxDiskLight::schemaType;
+%ignore UsdLuxDiskLight::schemaKind;
 
 %include "pxr/usd/usdLux/diskLight.h"

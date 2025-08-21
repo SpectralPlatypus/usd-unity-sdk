@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/distantLight.h"
 %}
 
-%ignore UsdLuxDistantLight::schemaType;
+%ignore UsdLuxDistantLight::schemaKind;
 
 %include "pxr/usd/usdLux/distantLight.h"

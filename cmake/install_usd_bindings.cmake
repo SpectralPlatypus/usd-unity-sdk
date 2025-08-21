@@ -68,6 +68,10 @@ FILE(GLOB usd_usdri ${CMAKE_BINARY_DIR}/generated/UsdRi*.cs)
 FILE(INSTALL ${usd_usdri} DESTINATION ${INSTALL_DIR}/pxr/usd/usdRi)
 LIST(APPEND SWIG_FILES pxr/usd/usdRi/*.cs)
 
+FILE(GLOB usd_usdphysics ${CMAKE_BINARY_DIR}/generated/UsdPhysics*.cs)
+FILE(INSTALL ${usd_usdphysics} DESTINATION ${INSTALL_DIR}/pxr/usd/usdPhysics)
+LIST(APPEND SWIG_FILES pxr/usd/usdPhysics/*.cs)
+
 FILE(GLOB usd_usdutils ${CMAKE_BINARY_DIR}/generated/UsdUtils*.cs)
 FILE(INSTALL ${usd_usdutils} DESTINATION ${INSTALL_DIR}/pxr/usd/usdUtils)
 LIST(APPEND SWIG_FILES pxr/usd/usdUtils/*.cs)
@@ -78,7 +82,7 @@ LIST(APPEND SWIG_FILES pxr/usd/usdVol/*.cs)
 
 
 FILE(GLOB usd_usd ${CMAKE_BINARY_DIR}/generated/Usd*.cs)
-LIST(REMOVE_ITEM usd_usd ${usd_usdcs} ${usd_usdgeom} ${usd_usdshade} ${usd_usdskel} ${usd_usdlux} ${usd_usdri} ${usd_usdutils} ${usd_usdvol})
+LIST(REMOVE_ITEM usd_usd ${usd_usdcs} ${usd_usdgeom} ${usd_usdshade} ${usd_usdskel} ${usd_usdlux} ${usd_usdphysics} ${usd_usdri} ${usd_usdutils} ${usd_usdvol})
 FILE(INSTALL ${usd_usd} DESTINATION ${INSTALL_DIR}/pxr/usd/usd)
 LIST(APPEND SWIG_FILES pxr/usd/usd/*.cs)
 

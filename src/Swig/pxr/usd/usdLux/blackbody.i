@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/blackbody.h"
 %}
 
-%ignore UsdLuxBlackbody::schemaType;
+//%ignore UsdLuxBlackbody::schemaType;
 
 %include "pxr/usd/usdLux/blackbody.h"

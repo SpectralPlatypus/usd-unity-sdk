@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD9EE7A3-3B02-43F2-A372-BD48EB55628D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>USD.NET</RootNamespace>
+    <AssemblyName>USD.NET</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\collections\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\pooling\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\serialization\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\Properties\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\base\gf\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\base\js\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\base\plug\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\base\tf\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\base\vt\*.cs" />
+    <!--    <Compile Include=".\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\ar\*.cs" />-->
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\kind\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\ndr\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\pcp\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\sdf\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\sdr\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdAPISchemaBase.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdAttribute.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdAttributeQuery.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdAttributeQueryVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdAttributeVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdClipsAPI.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdCollectionAPI.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdCollectionAPIVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdEditTarget.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdInherits.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdInterpolationType.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdListPosition.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdLoadPolicy.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdMetadataValueMap.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdModelAPI.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdObject.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdObjectVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdObjType.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPayloads.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPrim.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPrimRange.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPrimSiblingIterator.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPrimSiblingRange.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPrimSubtreeIterator.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPrimSubtreeRange.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPrimVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdProperty.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdPropertyVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdReferences.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdRelationship.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdRelationshipVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdResolveInfo.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdResolveInfoSource.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdSchemaBase.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdSchemaKind.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdSpecializes.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStage.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageCache.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageCacheRequest.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageCacheResultPair.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageLoadRules.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageLoadRulesPair.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageLoadRulesVectorPair.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStagePopulationMask.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageRefPtrVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdStageWeakPtr.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdTimeCode.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdTimeCodeVector.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdTyped.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdVariantSet.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdVariantSets.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\UsdZipFile.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\Usd_PrimFlags.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\Usd_PrimFlagsConjunction.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\Usd_PrimFlagsDisjunction.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\Usd_PrimFlagsPredicate.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd\Dependencies.\USD.NET\generated\pxr\usd\usd\Usd_Term.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdGeom\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdLux\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdPhysics\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdRi\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdShade\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdSkel\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdUtils\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\pxr\usd\usdVol\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\std\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\SWIG\*.cs" />
+    <Compile Include="..\package.\com.unity.formats.usd/Dependencies.\USD.NET\generated\UsdCs\*.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

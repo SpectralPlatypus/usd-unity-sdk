@@ -17,6 +17,6 @@
 #include "pxr/usd/usdRi/risOslPattern.h"
 %}
 
-%ignore UsdRiRisOslPattern::schemaType;
+%ignore UsdRiRisOslPattern::schemaKind;
 
 %include "pxr/usd/usdRi/risOslPattern.h"

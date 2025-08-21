@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/sphereLight.h"
 %}
 
-%ignore UsdLuxSphereLight::schemaType;
+%ignore UsdLuxSphereLight::schemaKind;
 
 %include "pxr/usd/usdLux/sphereLight.h"

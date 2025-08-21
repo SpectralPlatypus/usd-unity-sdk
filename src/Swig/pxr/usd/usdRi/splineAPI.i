@@ -17,7 +17,7 @@
 #include "pxr/usd/usdRi/splineAPI.h"
 %}
 
-%ignore UsdRiSplineAPI::schemaType;
+%ignore UsdRiSplineAPI::schemaKind;
 %ignore UsdRiSplineAPI::Get;
 %ignore UsdRiSplineAPI::Apply;
 

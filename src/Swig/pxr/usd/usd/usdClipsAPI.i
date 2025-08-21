@@ -21,6 +21,6 @@
 %include "typemaps.i"
 %apply double *INOUT { double * };
 
-%ignore UsdClipsAPI::schemaType;
+%ignore UsdClipsAPI::schemaKind;
 
 %include "pxr/usd/usd/clipsAPI.h"

@@ -33,9 +33,9 @@ message("Python exec ${Python3_FOUND}   ${Python3_EXECUTABLE} ${Python3_INTERPRE
 if (BUILD_USD_NET OR BUILD_TESTS)
     if (USE_CUSTOM_MONO)
         # Unity Mono is currently 5.11 (custom) so standalonee mono should be close
-        find_package(Mono REQUIRED)
+        #find_package(Mono REQUIRED)
     else ()
-        find_package(Unity REQUIRED)
+        #find_package(Unity REQUIRED)
     endif()
 endif()
 

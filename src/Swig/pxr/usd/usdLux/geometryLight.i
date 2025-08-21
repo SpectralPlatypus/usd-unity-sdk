@@ -17,6 +17,6 @@
 #include "pxr/usd/usdLux/geometryLight.h"
 %}
 
-%ignore UsdLuxGeometryLight::schemaType;
+%ignore UsdLuxGeometryLight::schemaKind;
 
 %include "pxr/usd/usdLux/geometryLight.h"

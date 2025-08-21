@@ -38,7 +38,7 @@ public:
     UsdStageWeakPtr(UsdStage* stage);
     UsdStage const* operator->();
     // Required when there is no automagic smart pointer support enabled.
-    // explicit UsdStageWeakPtr(UsdStageRefPtr const& stage);
+    //explicit UsdStageWeakPtr(UsdStageRefPtr const& stage);
 };
 
 typedef TfWeakPtr<UsdStage> UsdStageWeakPtr;
